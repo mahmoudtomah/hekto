@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul {
+
+    list-style-type: none;
+}
+
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+:root {
+    --primarycolor: #FB2E86;
+    --mainfont: "Lato", sans-serif;
+}
+
+
+.btn {
+    padding: 16px 40px;
+    border-radius: 2px;
+}
+
+.btn-primary {
+
+    background-color: var(--primarycolor);
+}
+
+
+.btn-suceess {
+
+    background-color: #08D15F;
+}
+
+
+
+.container{
+
+    width:calc( 100% - 300px) ;
+   
+    margin: auto;
+}
+

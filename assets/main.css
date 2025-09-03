@@ -1,0 +1,63 @@
+.header {
+    padding: 59px 0;
+
+}
+
+.gap_navbar {
+    gap: 0 35px;
+
+
+}
+
+.list_navbar {
+    color: #0D0E43;
+    font-family: var(--mainfont);
+}
+
+
+.color_for_home {
+
+    color: var(--primarycolor);
+}
+
+.search input {
+
+    outline: none;
+    border: none;
+    width: 180px;
+    padding: 0 10px;
+}
+
+
+
+.search_button {
+    background-color: var(--primarycolor);
+    outline: none;
+    border: none;
+    padding: 1px;
+}
+
+.search {
+
+    border: 1px solid #E7E6EF;
+    border-radius: 5px;
+}
+
+.bars_headar {
+    width: 20px;
+    display: none;
+}
+
+@media screen and (max-width:1200px) {
+
+    .search,
+    .list {
+        display: none;
+    }
+
+    .bars_headar {
+
+        display: block;
+    }
+}
+
