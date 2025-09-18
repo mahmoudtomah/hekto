@@ -561,6 +561,124 @@ gap: 10px;
 /* <!-- end of what shopex offer -->
 <!-- ////////////////////////////////////////////////////////// --> */
 
+/* <!-- Top-Categories --> */
+
+.Top-Categories {
+
+    padding-bottom: 150px ;
+}
+
+
+
+
+.Top-Categories h2{
+
+    text-align: center;
+    color: #151875;
+    margin-bottom: 60px;
+}
+
+
+.img-Top-Categories{
+    background-color: #F6F7FB;
+    border-radius: 50%;
+    padding: 50px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+.products-in-Top-Categories{
+
+display: flex;
+flex-wrap:wrap ;
+align-items: center;
+gap: 150px;
+width: 100%;
+
+}
+
+
+.product-in-Top-Categories{
+
+    width: calc( ( 100% - 450px ) / 4 );
+display: flex;
+align-items: center;
+flex-direction: column;
+padding: 40px;
+border-radius: 50%;
+flex-grow: 1;
+}
+
+
+.product-in-Top-Categories img{
+
+width: 100px;
+height: 100px;
+object-fit: cover;
+margin-bottom: 10px;
+}
+
+
+.product-in-Top-Categories span{
+
+color: #151875;
+margin-top: 10px;
+}
+
+
+.Top-Categories button{
+
+    background-color: #08D15F;
+    border: none;
+    outline: none;
+    padding: 5px;
+    
+    margin-top: auto;
+    display: none;
+    
+}
+
+
+
+.img-Top-Categories:hover button{
+
+    display: block;
+}
+
+
+.img-Top-Categories:hover {
+
+    box-shadow: -2px 2px #9877E7;
+}
+
+
+
+
+
+
+
+
+
+
+/* <!-- Top-Categories -->
+<!-- ///////////////////////////////////////////////////////// --> */
+
+
+
+
+
+
+
+
+
+
+
 
 /* <!-- news later --> */
 
@@ -661,6 +779,8 @@ overflow-x: auto;
 
 /* end of  claint*/
 /* ///////////////////////////////////////////////////// */
+
+
 
 
 
