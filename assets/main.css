@@ -123,6 +123,8 @@ color: #FFFFFF ;
 /* <!-- end of news later -->
 <!-- ///////////////////////////////////////// --> */
 
+/* <!-- Featured Products --> */
+
 .Featured-Products h2{
     text-align: center;
     color: #1A0B5B;
@@ -132,27 +134,275 @@ color: #FFFFFF ;
     color: #FB2E86;
 }
 
+
+
 .Featured-1,.Featured-2,.Featured-3,.Featured-4{
 
 display: flex;
 flex-direction: column;
 align-items: center;
-gap: 25px;
+gap: 0px;
 margin-top: 20px;
 padding: 50px 0;
 flex-grow: 1;
 flex-basis: 150px;
+
 }
 
 
 .Featured-Products img{
 
-width: 200px;
-height: 200px;
-object-fit:scale-down ;
+width: 100%;
+height: 100%;
+object-fit:contain;
 background-color: #F6F7FB;
 box-shadow: 0px 4px 4px #00000040;
 }
+
+.Featured-1-top{
+width: 250px;
+height: 200px;
+position: relative;
+
+}
+
+.Featured-Products .Featured-1-top button{
+background-color: #08D15F;
+position: absolute;
+bottom: 4px;
+left: 0;
+right: 0;
+margin: auto;
+width: 90px;
+height: 20px;
+display: none;
+
+}
+
+ .Featured-1:hover .button-img-Featured{
+    display: block;
+     transition-duration: 1s;
+}
+
+.Featured-1:hover h3{
+   color: #fff;
+}
+
+
+
+
+
+.icon-in-Featured-1{
+
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    display: none;
+}
+
+.Featured-1:hover .icon-in-Featured-1{
+   display: block;
+}
+
+
+
+.Featured-2-top{
+width: 250px;
+height: 200px;
+position: relative;
+
+
+}
+
+.Featured-Products .Featured-2-top button{
+background-color: #08D15F;
+position: absolute;
+bottom: 4px;
+left: 0;
+right: 0;
+margin: auto;
+width: 90px;
+height: 20px;
+display: none;
+
+}
+
+.Featured-2:hover .button-img-Featured{
+    display: block;
+     transition-duration: 1s;
+}
+.Featured-2:hover h3{
+   color: #fff;
+}
+
+.icon-in-Featured-2{
+
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    display: none;
+}
+
+.Featured-2:hover .icon-in-Featured-2{
+   display: block;
+}
+
+
+
+
+.Featured-3-top{
+width: 250px;
+height: 200px;
+position: relative;
+
+
+}
+
+.Featured-Products .Featured-3-top button{
+background-color: #08D15F;
+position: absolute;
+bottom: 4px;
+left: 0;
+right: 0;
+margin: auto;
+width: 90px;
+height: 20px;
+display: none;
+
+}
+
+.Featured-3:hover .button-img-Featured{
+    display: block;
+     transition-duration: 1s;
+}
+
+.Featured-3:hover h3{
+   color: #fff;
+}
+
+
+.icon-in-Featured-3{
+
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    display: none;
+}
+
+.Featured-3:hover .icon-in-Featured-3{
+   display: block;
+}
+
+
+.Featured-4-top{
+width: 250px;
+height: 200px;
+position: relative;
+
+
+}
+
+.Featured-Products .Featured-4-top button{
+background-color: #08D15F;
+position: absolute;
+bottom: 4px;
+left: 0;
+right: 0;
+margin: auto;
+width: 90px;
+height: 20px;
+display: none;
+
+}
+
+.Featured-4:hover .button-img-Featured{
+    display: block;
+     transition-duration: 1s;
+}
+
+.Featured-4:hover h3{
+   color: #fff;
+}
+
+.icon-in-Featured-4{
+
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    display: none;
+}
+
+.Featured-4:hover .icon-in-Featured-4{
+   display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Featured-1-bottom, .Featured-2-bottom , .Featured-3-bottom, .Featured-4-bottom
+{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 250px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Featured-Products button{
+
+    width: 20px;
+    height: 6px ;
+   
+   border: none;
+   outline: none;
+   border-radius: 5px;
+   
+   background-color: #151875;
+   cursor:pointer;
+}
+
+
+.Featured-Products .button-1-in-Featured-Products {
+  background-color: #05E6B7 ;
+}
+
+.Featured-Products .button-2-in-Featured-Products {
+  background-color: #00009D ;
+}
+
+
+
+
+
+
+
+
+
 
 
 .Featured-span{
@@ -165,6 +415,32 @@ gap: 20px;
 }
 
 
+
+ .Featured-Products .hover-Featured:hover .hover-bottom-Featured 
+{
+    background-color:#2F1AC4 ;
+    transition-duration: 1s;
+    
+
+}
+
+.Featured-Products .hover-Featured:hover .button-3-in-Featured-Products 
+{
+    background-color:#FFEAC1 ;
+    transition-duration: 1s;
+  
+}
+
+
+
+
+
+
+
+
+
+/* <!--end of Featured Products -->
+  <!-- /////////////////////////////////////////////////////////// --> */
 
 
 
@@ -362,9 +638,6 @@ flex-wrap: wrap;
 }
 
 /* end of footer */
-
-
-
 
 
 
