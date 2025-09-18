@@ -67,67 +67,121 @@
 
 /* ////////////////////////////////////////////////// */
 
+/* <!-- hero --> */
 
 
+.hero {
 
-/* <!-- news later --> */
-
-.newslater{
-
-    background-image: url(./img/background_newslater.png);
-    padding: 174px 0;
-    background-attachment: fixed;
+background-color: #F2F0FF;
+padding:  40px 0;
+position: relative;
 }
 
-.newslater .row{
+.left-side-in-hero{
+
+display: flex;
+flex-wrap: wrap;
+flex-wrap: wrap;
 flex-direction: column;
+gap: 30px;
+align-items:flex-start;
+
+
 }
 
-.newslater h2{
+.left-side-in-hero span{
 
-margin-bottom: 60px;
-color: #151875 ;
-font-size: 35px;
+    color: #FB2E86;
+    font-size: 16px;
 }
 
-.newslater a{
+.left-side-in-hero h2{
 
-color: #FFFFFF ;
-}
-
-.newslater a:hover{
-
- background-color: #8A8FB9;
- transition-duration: 1s;
- transition-delay: 1s;
+    
+    font-size: 40px;
 }
 
 
+.left-side-in-hero{
+flex-grow: 1;
+}
+
+.right-side-in-hero{
+flex-grow: 1;
+
+}
+
+
+
+.left-side-in-hero p{
+
+    color: #8A8FB9;
+    font-size: 16px;
+}
+
+.left-side-in-hero a{
+
+    color: #fff;
+    
+}
+
+
+.left-side-in-hero img{
+
+   width: 100px;
+    height: 200px;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
+
+
+
+
+.right-side-in-hero img{
+
+width: 400px;
+object-fit:contain;
+
+}
+
+
+@media screen and (max-width:1400px) {
+    .left-side-in-hero img{
+
+   display: none;
+    }
+    
+}
+
+
+@media screen and (max-width:1400px) {
+    .right-side-in-hero img{
+
+   width: 200px;
+    }
+    
+}
 
 
 
 
 
 
+/* <!-- end of hero -->
+ <!-- /////////////////////////////////////////////////////////// --> */
 
 
 
-
-
-
-
-
-
-
-
-/* <!-- end of news later -->
-<!-- ///////////////////////////////////////// --> */
 
 /* <!-- Featured Products --> */
 
 .Featured-Products h2{
     text-align: center;
     color: #1A0B5B;
+    padding-top: 40px;
 }
 .Featured-Products h3{
 
@@ -443,7 +497,58 @@ gap: 20px;
   <!-- /////////////////////////////////////////////////////////// --> */
 
 
+/* <!-- news later --> */
 
+.newslater{
+
+    background-image: url(./img/background_newslater.png);
+    padding: 174px 0;
+    background-attachment: fixed;
+}
+
+.newslater .row{
+flex-direction: column;
+}
+
+.newslater h2{
+
+margin-bottom: 60px;
+color: #151875 ;
+font-size: 35px;
+}
+
+.newslater a{
+
+color: #FFFFFF ;
+}
+
+.newslater a:hover{
+
+ background-color: #8A8FB9;
+ transition-duration: 1s;
+ transition-delay: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- end of news later -->
+<!-- ///////////////////////////////////////// --> */
 
 
 
