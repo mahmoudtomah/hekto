@@ -722,6 +722,108 @@ gap: 10px;
 /* <!-- end of what shopex offer -->
 <!-- ////////////////////////////////////////////////////////// --> */
 
+
+/* <!-- Trendig-Product --> */
+
+.Trendig-Product h2
+
+{
+text-align: center;
+    color: #1A0B5B;
+    padding-top: 40px;
+}
+
+
+.products-in-Trendig-Product{
+
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+gap: 40px;
+margin-top: 50px;
+
+}
+
+.product-in-Trendig-Product{
+
+background-color: #ffffff;
+padding: 0 10px;
+flex-grow: 1;
+}
+
+.product-in-Trendig-Product h3{
+
+text-align: center;
+color: #151875;
+padding-top: 8px;
+flex-grow: 1;
+}
+
+
+.img-in-product-in-Trendig-Product img
+{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+.span-in-Trendig-Product{
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.span-in-Trendig-Product span:nth-child(1)
+{
+   color: #151875;
+
+}
+
+.span-in-Trendig-Product span:nth-child(2)
+{
+   color: #575766;
+    text-decoration: line-through;
+    font-size:small;
+}
+
+@media screen and (max-width:1488px) {
+    .product-in-Trendig-Product{
+
+
+     width: calc( ( 80% - 40px ) / 4  ) ; 
+
+}
+
+}
+
+
+@media screen and (max-width:576px) {
+    .product-in-Trendig-Product{
+
+
+     width: calc( ( 100% - 40px ) / 2  ) ; 
+
+}
+   
+}
+
+
+
+/* <!-- end of Trendig-Product -->
+<!-- ////////////////////////////////////////////////////////// --> */
+
+
+
+
 /* <!-- Top-Categories --> */
 
 .Top-Categories {
