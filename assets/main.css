@@ -174,6 +174,167 @@ object-fit:contain;
  <!-- /////////////////////////////////////////////////////////// --> */
 
 
+/* <!-- latest product --> */
+
+.latest-product h2{
+text-align: center;
+color: #151875;
+padding-top: 40px;
+}
+
+.under-h2-in-latest-product
+{
+
+display: flex;
+justify-content: center;
+gap: 50px;
+margin:30px 0 ;
+color: #151875;
+}
+
+.products-in-latest-product
+{
+display: flex;
+flex-wrap: wrap;
+gap: 70px;
+
+
+}
+
+.img-in-latest-product
+{    
+  
+    background-color: #F7F7F7;
+}
+
+.product-in-latest-product
+{    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc( ( 100% - 140px ) / 3 ); 
+    position: relative;
+}
+
+.img-in-latest-product img
+{   
+   width: 250px;
+   height: 250px;
+   object-fit: cover;
+   padding: 20px;
+} 
+
+
+.under-in-latest-product
+{
+display: flex;
+gap: 60px;
+font-size: small;
+margin-top: 5px;
+}
+
+
+.under-in-latest-product p{
+
+    color: #151875;
+}
+
+
+.cspan-in-latest-product{
+
+    color: #151875;
+}
+
+.span2-in-latest-product{
+
+color: #FB2448;
+text-decoration: line-through;
+font-size:x-small;
+
+}
+
+
+.img-sale-in-latest-product{
+    
+position: absolute;
+left: 55px;
+top: 0px;
+width: 55px;
+display: none;
+
+}
+
+
+.icon-in-latest-product{
+ 
+ position: absolute;
+left: 60px;
+bottom: 25px;
+display: flex;
+flex-direction: column;
+display: none;
+}
+
+
+.latest-product .under-h2-in-latest-product a:hover {
+
+text-decoration: underline;
+color: #FB2E86;
+}
+
+.product-in-latest-product:hover img{
+
+    display: block;
+}
+
+.product-in-latest-product:hover .icon-in-latest-product{
+
+    display: block;
+    left: 60px;
+bottom: 25px;
+display: flex;
+flex-direction: column;
+}
+
+.product-in-latest-product:hover .img-in-latest-product
+{    
+  
+    background-color: #fff;
+    transition-duration: 1s;
+}
+
+
+
+
+
+@media screen and (max-width:992px) {
+    .product-in-latest-product
+{   
+    width: calc( ( 100% - 140px ) / 2 ); 
+    
+}
+    
+}
+
+@media screen and (max-width:620px) {
+    
+ .product-in-latest-product
+{   
+    width: calc( ( 100% - 140px ) / 1 ); 
+    
+}
+    
+}
+
+
+
+
+
+
+/* <!-- end of latest product -->
+<!-- ////////////////////////////////////////////////////////////////// -->
+   */
+
 
 
 /* <!-- Featured Products --> */
