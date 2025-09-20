@@ -815,6 +815,134 @@ flex-grow: 1;
 }
    
 }
+/* <!--        part22222222222222222222222222222222222                 --> */
+
+
+
+
+.bottom-Trendig-Product{
+
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+gap: 30px;
+margin-top: 30px;
+margin-bottom: 100px;
+}
+
+
+.bt{
+
+flex-grow: 1.5;
+width: 420px;
+height: 270px;
+background-color: #FFF6FB;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+gap:20px;  
+position: relative;      
+}
+
+.second-bottom-Trendig-Product
+{
+    background-color: #EEEFFB;
+}
+
+
+
+
+
+.bt h3{
+
+    margin-top:34px ;
+    margin-left: 25px;
+    color: #151875;
+}
+
+.bt a {
+    margin-left: 25px;
+    color: #FB2E86;
+    text-decoration: underline;
+}
+
+.bt img{
+position: absolute;
+right: 0px;
+bottom: 0px;
+}
+
+
+
+.third-bottom-Trendig-Product{
+
+flex-grow: 1.25;
+height: 270px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 35px;
+padding-left: 5px;
+margin-right:auto ;
+
+}
+
+.third1-bottom-Trendig-Product{
+    
+    display: flex;
+flex-wrap: wrap;
+}
+
+.to-padding
+{    width: 80px;
+    background-color: #F5F6F8;
+}
+
+
+.to-padding img{
+    object-fit: cover;
+    width: 60px;
+}
+
+.right-bottom-Trendig-Product{
+
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: center;
+gap: 5px;
+}
+
+
+.right-bottom-Trendig-Product {
+
+    color: #151875;
+    margin-left:5px ;
+}
+
+@media screen and (max-width:1450px) {
+    .bt {
+        width: 100%
+    }
+
+    .third-bottom-Trendig-Product{
+                width: 100%
+    }
+    
+}
+
+
+@media screen and (max-width:992px) {
+    
+    
+}
+
+@media screen and (max-width:576px) {
+   
+}
+
+
 
 
 
